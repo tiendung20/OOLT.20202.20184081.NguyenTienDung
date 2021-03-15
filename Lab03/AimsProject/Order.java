@@ -1,4 +1,4 @@
-package Lab03;
+package AimsProject;
 
 public class Order {
 

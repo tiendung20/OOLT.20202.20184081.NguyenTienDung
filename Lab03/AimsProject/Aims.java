@@ -1,4 +1,4 @@
-package Lab03;
+package AimsProject;
 
 public class Aims {
 
@@ -25,10 +25,7 @@ public class Aims {
         dvd3.setDirector("John Musker");
         dvd3.setLength(90);
         anOrder.addDigitalVideoDisc(dvd3);
-        anOrder.addDigitalVideoDisc(dvd2);
-        anOrder.addDigitalVideoDisc(dvd2);
-        anOrder.removeDigitalVideoDisc(dvd3);
-        anOrder.removeDigitalVideoDisc(dvd3);
+        
         System.out.print("Total Cost is: ");
         System.out.println(anOrder.totalCost());
 	}
