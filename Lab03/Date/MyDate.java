@@ -1,5 +1,5 @@
 package Date;
-
+// mm/dd/yyyy
 import java.time.LocalDate;
 public class MyDate {
 	private int day;

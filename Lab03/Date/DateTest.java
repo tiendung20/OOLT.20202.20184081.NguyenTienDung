@@ -1,5 +1,5 @@
 package Date;
-
+//mm/dd/yyyy
 public class DateTest {
 
 	public static void main(String[] args) {
