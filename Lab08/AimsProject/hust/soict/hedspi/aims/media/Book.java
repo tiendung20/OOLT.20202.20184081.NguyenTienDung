@@ -60,11 +60,15 @@ public class Book extends Media {
             String string = iterator.next();
             if (!wordFrequency.containsKey(string)) {
                 wordFrequency.put(string, 1);
-            }else {
+            }
+            else {
                 int a = wordFrequency.get(string);
                 a++;
                 wordFrequency.put(string, a);
             }
         }
 	}
+	public String toString(){
+        return "Book - " + super.getTitle() + " - " + super.getCategory() + " - Author : " + authors.toString() + " - " + " - Content: " + this.content + super.getCost() + "$";
+    }
 }
